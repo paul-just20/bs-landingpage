@@ -1,54 +1,44 @@
-body{
-    font-family: "Poppins",Lato, sans-serif;
-}
-div.col{
-   /*border: 1px solid #000; */
-}
-
-.spacer-top{
-    margin-top: 20px;
-}
+body{ font-family: "Poppins",Lato, sans-serif; }
+.spacer-top{ margin-top: 20px; }
 
 .b-ground{
   background-color:#b8ffe4;
   border-top: 5px solid rgb(128, 236, 128);
 }
 form.layout{
-    background-color: rgb(193, 218, 170);
+   /* background-color: rgb(193, 218, 170); */
     border-radius: 10px;
     width: 100%;
     float: right;
 }
-label{
-    font-weight: bold;
-}
-img{
+label{ font-weight: bold;}
+/*img{
     padding-top: 10px;
     display: block;
     margin: auto;
 }
-
+*/
+input[type]{
+    border: 1px solid green;
+}
 
 /*   for Landscape Phones less than 576px Size*/
-@media (min-width: 576px) { 
+@media (max-width: 576px) { 
     img{
         height: 50vh;
        }
-
  }
 /* for Large Media Tablets */
  @media (min-width: 768px){
     img{
         height: 70vh;
        }
-
  }
  /* for Large Devices and Desktops */
 @media (min-width: 992px) {  
     img{
         height: 60vh;
        }
-    
 }
 
 
